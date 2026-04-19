@@ -1,0 +1,12 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual Environments
+venv/
+env/
+
+# Huge data files (Optional: remove these if you want to upload your dataset/model to GitHub)
+# *.csv
+# *.pt
+.vector_cache/
