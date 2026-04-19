@@ -15,3 +15,13 @@ The Context Engine (Bi-LSTM): If a message passes Layer 1, it goes to a PyTorch 
 The Vocabulary (GloVe): Instead of making the AI learn English from scratch, it's pre-loaded with Stanford's GloVe (6B-100d) word embeddings.
 
 The Interface: A clean, responsive front-end built in Streamlit so users can actually test the model live.
+
+
+Try It Yourself
+Want to test the bodyguard? Run it locally:
+
+Install the required Python libraries:
+pip install torch torchtext pandas streamlit
+
+Boot up the Streamlit interface:
+streamlit run app.py
