@@ -24,7 +24,7 @@ def prepare_dataloaders(csv_path="clean_data.csv", batch_size=64):
     
     # Split: 80% Train, 10% Validation, 10% Test
     X_train, X_temp, y_train, y_temp = train_test_split(df['text'], df['label'], test_size=0.2, random_state=42)
-    X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=42)
+    X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=58)
 
     print("2. Building vocabulary (This takes a moment for 300k+ rows)...")
     tokenizer = get_tokenizer('basic_english')
